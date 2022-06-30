@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    var chosenElement : FavoriteElementsModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image(chosenElement.imageName).resizable().aspectRatio(contentMode: .fit)
+                .frame(width: UIScreen.main.bounds.width * 0.9, height: UIScreen.main.bounds.height * 0.3).padding()
+    
+            Text(chosenElement.name).font(.largeTitle)
+            Text(chosenElement.description).padding()
+            Spacer().frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.2)
+        }
+   
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        DetailView(chosenElement: mettalica)
     }
 }
