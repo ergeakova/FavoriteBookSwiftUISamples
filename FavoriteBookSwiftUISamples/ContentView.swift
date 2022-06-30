@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+         
+            List{
+                ForEach(myFavorites) { favorite in
+                    Section(header: Text(favorite.title).bold().font(.title)) {
+                        ForEach(favorite.elements){ element in
+                            Text(element.name)
+                        }
+                    }
+                }
+            }.frame(width: UIScreen.main.bounds.width * 1, height:  UIScreen.main.bounds.height * 0.95)
+        }
     }
 }
 
