@@ -13,6 +13,7 @@
 		C094F3B3286D1B5F004CFDEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C094F3B2286D1B5F004CFDEB /* Preview Assets.xcassets */; };
 		C094F3BA286D1BFF004CFDEB /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C094F3B9286D1BFF004CFDEB /* FavoriteModel.swift */; };
 		C094F3BC286D1E31004CFDEB /* FavoriteElementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C094F3BB286D1E31004CFDEB /* FavoriteElementsModel.swift */; };
+		C094F3BE286D2710004CFDEB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C094F3BD286D2710004CFDEB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C094F3B2286D1B5F004CFDEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C094F3B9286D1BFF004CFDEB /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 		C094F3BB286D1E31004CFDEB /* FavoriteElementsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteElementsModel.swift; sourceTree = "<group>"; };
+		C094F3BD286D2710004CFDEB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				C094F3AB286D1B5B004CFDEB /* FavoriteBookSwiftUISamplesApp.swift */,
 				C094F3AD286D1B5B004CFDEB /* ContentView.swift */,
+				C094F3BD286D2710004CFDEB /* DetailView.swift */,
 				C094F3B9286D1BFF004CFDEB /* FavoriteModel.swift */,
 				C094F3BB286D1E31004CFDEB /* FavoriteElementsModel.swift */,
 				C094F3AF286D1B5F004CFDEB /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				C094F3BA286D1BFF004CFDEB /* FavoriteModel.swift in Sources */,
 				C094F3AE286D1B5B004CFDEB /* ContentView.swift in Sources */,
 				C094F3BC286D1E31004CFDEB /* FavoriteElementsModel.swift in Sources */,
+				C094F3BE286D2710004CFDEB /* DetailView.swift in Sources */,
 				C094F3AC286D1B5B004CFDEB /* FavoriteBookSwiftUISamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
